@@ -3,8 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load dataset
-file_path = "PRSA_Data_Aotizhongxin_20130301-20170228.csv"
+# Mendapatkan path absolut dari folder script ini
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Path ke file CSV dalam folder dashboard
+file_path = os.path.join(BASE_DIR, "PRSA_Data_Aotizhongxin_20130301-20170228.csv")
+
+# Baca data csv
 df = pd.read_csv(file_path)
 
 # Data Cleaning

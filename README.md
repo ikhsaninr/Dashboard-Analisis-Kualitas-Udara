@@ -1,6 +1,7 @@
 📊 Dashboard Analisis Kualitas Udara
 
-Dashboard ini dibuat menggunakan Streamlit untuk menganalisis data kualitas udara berdasarkan data polutan utama dan faktor cuaca. Data yang digunakan mencakup periode 2013-2017 dari stasiun Aotizhongxin.
+Dashboard ini dibuat menggunakan Streamlit untuk menganalisis data kualitas udara berdasarkan data polutan utama dan faktor cuaca. 
+Data yang digunakan mencakup periode 2013-2017 dari stasiun Aotizhongxin.
 
 🎯 Fitur Utama
 

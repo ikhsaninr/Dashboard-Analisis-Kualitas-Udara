@@ -18,7 +18,7 @@ venv\Scripts\activate    # Untuk Windows
 pip install -r requirements.txt
 3️⃣ Jalankan Aplikasi Streamlit
 
-streamlit run app.py
+streamlit run dashboard/app.py
 
 📁 Struktur Repository
 📂 repository-name
